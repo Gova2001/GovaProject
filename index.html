@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fill Details</title>
+    <style>
+        h2{
+            width:fit-content;
+            color: brown;
+            background-color: burlywood;
+            text-align: center;
+            font-family: cursive;
+            font-size:xx-large;
+            margin-left: 40%;
+        }
+        label,h3{
+            color:ADC4CE;
+            background-color: burlywood;
+            text-align: center;
+            font-family:fantasy;
+            font-size:medium;
+        }
+        .but{
+            border: 3px solid darkorange;
+            background-color: burlywood;
+        }
+        input{
+            background-color:blanchedalmond;
+            border:2px dotted gray;
+        }
+        input:visited{
+            color: brown;
+            background-color: bisque;
+        }
+        input:hover{
+            color: brown;
+            background-color: bisque;
+        }
+        .tag{
+            width: fit-content;
+            background-color:burlywood;
+            margin-left: 43.5% ;
+        }
+    </style>
+</head>
+<body bgcolor="96B6C5">
+    <h2>Let me Know You!</h2>
+    <h3 class="tag">Before you Know me</h3>
+    <fieldset>
+        <legend>Kindly Fill Your Details</legend>
+    <form action="home.html">
+        <table>
+            <tr>
+                <td>
+                    <label>Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="name" required placeholder="Ex:Govardhan"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Contact:</label>
+                </td>
+                <td>
+                    <input type="tel"  name="con" required maxlength="10"placeholder="Ex:9876543210"><br>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label>Gender:</label>
+                </td>
+                <td>
+                    <input type="radio" name="Gen" value="M" required>M
+                    <input type="radio" name="Gen" value="F" required>F 
+                    <input type="radio" name="Gen" value="O" required>Others<br> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Email:</label>
+                </td>
+                <td>
+                    <input type="email" name="email" required placeholder="ex:rajala@gmail.com"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Date:</label>
+                </td>
+                <td>
+                    <input type="date" name="date" required>
+                </td>
+            </tr>
+        </table>
+        <input class="but" type="submit" value="Submit">
+    </form>
+</fieldset>
+</body>
+</html>
